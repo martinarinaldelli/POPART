@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Art en los Años 70 - Vanguardia Artística</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">POP ART</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>Buscar</button>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="historia.html" class="nav-button">HISTORIA DEL POP ART</a>
+                    <div class="dropdown-content">
+                        <a href="epoca-50.html">Años 50</a>
+                        <a href="epoca-60.html">Años 60</a>
+                        <a href="epoca-70.html">Años 70</a>
+                    </div>
+                </li>
+                <li><a href="obras.html" class="nav-button">OBRAS</a></li>
+                <li><a href="repercusion.html" class="nav-button">REPERCUSIÓN</a></li>
+                <li><a href="experiencia-visual.html" class="nav-button">EXPERIENCIA VISUAL</a></li>
+                <li><a href="actualidad.html" class="nav-button">ACTUALIDAD</a></li>
+                <li><a href="contacto.html" class="nav-button">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="historia.html" class="back-arrow">← Volver a Historia</a>
+        <section class="anos-60-main">
+            <div class="image-container">
+                <img src="img/epoca-70.jpg" alt="Años 70">
+            </div>
+            <div class="text-container">
+                <h1>Años 70</h1>
+                <p>En la década de 1970, el Pop Art continuó su evolución, diversificándose y expandiéndose a nivel global. Aunque la efervescencia de los años 60 había disminuido, el movimiento dejó una marca indeleble en el mundo del arte. Artistas como David Hockney exploraron nuevas formas de representación, combinando la estética pop con un enfoque más personal e introspectivo. En esta etapa, el Pop Art también comenzó a ser absorbido por la corriente principal, influyendo en el diseño gráfico, la moda y la música. La crítica a la sociedad de consumo se mantuvo, pero con un tono a menudo más melancólico o reflexivo, marcando el inicio de la transición hacia el posmodernismo y sentando las bases para futuras generaciones de artistas que seguirán explorando la relación entre el arte y la cultura popular.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="balloon-gallery-title"><h2>Descubre más tocando los círculos</h2></div>
+            <div class="balloon-gallery">
+                <div class="balloon" style="--i:1;" data-title="Comercialización del arte" data-description="Warhol abrió la Factory, un estudio donde producía obras en serie y trabajaba con asistentes, borrando la línea entre arte e industria."><img src="img/andy-warhol.png" alt="Obra 1"></div>
+                <div class="balloon" style="--i:2;" data-title="Consumo y crítica social" data-description="Muchos artistas incorporaron un tono más crítico, abordando problemas sociales y políticos; por ejemplo, la obra “F-111” de James Rosenquist, criticaba la militarización y la desconexión entre la violencia y la vida cotidiana."><img src="img/tec-escala.jpg" alt="Obra 2"></div>
+                <div class="balloon" style="--i:3;" data-title="Pop Art internacional" data-description="El estilo se expandió a Japón, Alemania y Latinoamérica, adaptándose a culturas locales y mezclándose con temas políticos."><img src="img/internacional.jpeg" alt="Obra 3"></div>
+                <div class="balloon" style="--i:4;" data-title="Tecnología y medios masivos" data-description="Se comenzaron a utilizar nuevas tecnologías como la fotografía, el video y la serigrafía mecánica para crear obras. Esto les permitía reproducir imágenes de manera rápida y en gran cantidad."><img src="img/tecnologias.jpeg" alt="Obra 4"></div>
+                <div class="balloon" style="--i:5;" data-title="Pop Art urbano" data-description="Muchos artistas incorporaron el espacio público en sus obras, creando murales o intervenciones urbanas que mezclaban la estética pop con mensajes sociales, haciendo que el arte saliera del museo y llegara directamente a la ciudad."><img src="img/mural-brigada.jpg" alt="Obra 5"></div>
+            </div>
+        </section>
+
+            <div id="balloon-modal" class="balloon-modal">
+      <span class="close-balloon-modal">&times;</span>
+      <a class="prev-balloon">&#10094;</a>
+      <a class="next-balloon">&#10095;</a>
+      <div class="balloon-modal-content">
+          <div class="balloon-modal-image">
+              <img src="" alt="">
+          </div>
+          <div class="balloon-modal-text">
+              <h3 class="balloon-modal-title"></h3>
+              <p class="balloon-modal-description"></p>
+          </div>
+      </div>
+  </div> 
+
+    </main>
+
+    <footer class="footer" data-aos="fade-up">
+        <div class="logo">
+            <a href="index.html">POP ART</a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Aviso Legal</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Cookies</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>

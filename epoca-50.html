@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Art en los Años 50 - Vanguardia Artística</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Monoton&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html">POP ART</a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>Buscar</button>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="historia.html" class="nav-button">HISTORIA DEL POP ART</a>
+                    <div class="dropdown-content">
+                        <a href="epoca-50.html">Años 50</a>
+                        <a href="epoca-60.html">Años 60</a>
+                        <a href="epoca-70.html">Años 70</a>
+                    </div>
+                </li>
+                <li><a href="obras.html" class="nav-button">OBRAS</a></li>
+                <li><a href="repercusion.html" class="nav-button">REPERCUSIÓN</a></li>
+                <li><a href="experiencia-visual.html" class="nav-button">EXPERIENCIA VISUAL</a></li>
+                <li><a href="actualidad.html" class="nav-button">ACTUALIDAD</a></li>
+                <li><a href="contacto.html" class="nav-button">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="historia.html" class="back-arrow">← Volver a Historia</a>
+        <section class="anos-50-main">
+            <div class="image-container">
+                <img src="img/epoca-50.jpeg" alt="Años 50">
+            </div>
+            <div class="text-container">
+                <h1>Años 50</h1>
+                <p>En la década de 1950, el Pop Art comenzó a gestarse en el Reino Unido como una respuesta crítica y a la vez fascinada por la creciente cultura de consumo de la posguerra. Artistas como Richard Hamilton y Eduardo Paolozzi, miembros del Independent Group, exploraron la iconografía de la publicidad, el cine y la tecnología, sentando las bases para un movimiento que revolucionaría el mundo del arte. Sus collages y obras tempranas desafiaron la solemnidad del arte abstracto y abrieron la puerta a una nueva forma de expresión que celebraba y cuestionaba lo cotidiano.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="balloon-gallery-title"><h2>Descubre más tocando los círculos</h2></div>
+            <div class="balloon-gallery">
+                <div class="balloon" style="--i:1;" data-title="Rock & Roll" data-description="La cultura juvenil que daría lugar al rock and roll también influyó en el Pop Art, al compartir la estética vibrante y de consumo masivo."><img src="img/rock-and-roll.jpg" alt="Obra 1"></div>
+                <div class="balloon" style="--i:2;" data-title="La televisión fue clave" data-description="En los 50 la televisión se masificó y llenó los hogares de imágenes y publicidad. El Pop Art la tomó como inspiración por su poder para reflejar consumo e íconos populares."><img src="img/television.jpg" alt="Obra 2"></div>
+                <div class="balloon" style="--i:3;" data-title="El término Pop Art" data-description="Fue usado por primera vez en 1954 por el crítico británico Lawrence Alloway. Se refería a un arte inspirado en la cultura popular, que borraba la división entre lo “alto” y lo “cotidiano"><img src="img/lawrence-alloway.jpeg" alt="Obra 3"></div>
+                <div class="balloon" style="--i:4;" data-title="Auge de las comidas rápidas" data-description="La comida rápida y los envases llamativos de los años 50 inspiraron a los artistas pop. Veían en ellos símbolos del consumo masivo y de la vida moderna."><img src="img/fast-food.jpg" alt="Obra 4"></div>
+                <div class="balloon" style="--i:5;" data-title="La influencia americana" data-description="Fue clave en el nacimiento del Pop Art. En Europa, los artistas tomaban revistas, anuncios y productos de EE.UU. como íconos de modernidad y deseo."><img src="img/comic-marvel.jpg" alt="Obra 5"></div>
+            </div>
+        </section>
+    
+            <div id="balloon-modal" class="balloon-modal">
+      <span class="close-balloon-modal">&times;</span>
+      <a class="prev-balloon">&#10094;</a>
+      <a class="next-balloon">&#10095;</a>
+      <div class="balloon-modal-content">
+          <div class="balloon-modal-image">
+              <img src="" alt="">
+          </div>
+          <div class="balloon-modal-text">
+              <h3 class="balloon-modal-title"></h3>
+              <p class="balloon-modal-description"></p>
+          </div>
+      </div>
+  </div>
+  
+    </main>
+
+    <footer class="footer" data-aos="fade-up">
+        <div class="logo">
+            <a href="index.html">POP ART</a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Aviso Legal</a>
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Cookies</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+</body>
+</html>
